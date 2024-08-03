@@ -1,22 +1,19 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import br.com.alura.screenmatch.models.;
+
+
 public class Program {
     public static void main(String[] args) {
         Movie myMovie = new Movie();
-        myMovie.name = "The Godfather";
-        myMovie.releaseYear = 1970;
-        myMovie.durationMinute = 180;
+        myMovie.setName("The Godfather");
+        myMovie.setReleaseYear(1970);
+        myMovie.setDurationMinute(180);
 
         myMovie.displayDataSheet();
-        System.out.println(myMovie);
-
         myMovie.avalia(8);
         myMovie.avalia(9);
         myMovie.avalia(7);
-        myMovie.avalia(6);
 
-        System.out.println(myMovie.sumAvaliation);
-        System.out.println(myMovie.totalAvaliation);
+        System.out.println("Total de avaliações: " + myMovie.getTotalAvaliation());
         System.out.println(myMovie.average());
 
 
