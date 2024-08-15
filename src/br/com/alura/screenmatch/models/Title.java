@@ -1,6 +1,6 @@
 package br.com.alura.screenmatch.models;
 
-public class Titulo {
+public class Title {
     private String name;
     private int releaseYear;
     private boolean planIncluded;
@@ -46,7 +46,7 @@ public class Titulo {
     }
 
     public void displayDataSheet(){
-        System.out.println("br.com.alura.screenmatch.models.Movie name:" + name);
+        System.out.println("name: " + name);
         System.out.println("Release Year: "+ releaseYear);
 
     }
@@ -59,5 +59,3 @@ public class Titulo {
     }
 
 }
-
-
