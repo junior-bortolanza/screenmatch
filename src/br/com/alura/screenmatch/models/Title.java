@@ -1,5 +1,7 @@
 package br.com.alura.screenmatch.models;
 
+import br.com.alura.screenmatach.calculo.Classify;
+
 public class Title {
     private String name;
     private int releaseYear;
