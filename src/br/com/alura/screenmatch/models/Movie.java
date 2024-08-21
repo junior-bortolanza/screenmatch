@@ -4,6 +4,11 @@ import br.com.alura.screenmatach.calculo.Classify;
 public class Movie extends Title implements Classify {
     private String director;
 
+    public Movie(String name , int yearRelease) {
+        super(name, yearRelease);
+
+    }
+
     public String getDirector(){
         return director;
     }
